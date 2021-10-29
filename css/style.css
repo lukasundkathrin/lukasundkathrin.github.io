@@ -1,0 +1,67 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#banner{
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+}
+
+#date{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#green_text{
+    font-size: 0.85rem;
+    color: green;
+    margin: 2rem auto 0rem;
+    padding: 0 5rem 0 5rem;
+    max-width: 50rem;
+}
+
+#flexibox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#fotobox{
+    background-image: url("/img/kalu.png");
+    background-size: cover;
+    border: none !important;
+}
+
+.infobox{
+    text-align: left;
+    width: 10rem;
+    height: 10rem;
+    /* border-style: solid; */
+    border-width: 0.01rem;
+    border-radius: 0.2rem;
+    border-color: black;
+    margin: 0.75rem;
+    padding: 1rem;
+    float: left;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.infobox .header{
+    font-weight: 800;
+    color: green;
+    /* text-transform: uppercase; */
+    margin-bottom: 1rem;
+}
+
+.infobox .box_text{
+    text-align: left;
+    font-size: 0.85rem;
+}
+
+.infobox a{
+    text-decoration: none;
+    color: green;
+    font-weight: 600;
+}

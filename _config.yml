@@ -1,0 +1,11 @@
+# Permalinks
+permalink:            pretty
+
+# Setup
+title:                'Kathrin & Lukas'
+description:          'gheirat wird!'
+baseurl:              /
+
+author:
+  name:               'Lukas Rammelmüller'
+  url:
