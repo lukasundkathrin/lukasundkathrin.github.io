@@ -80,6 +80,13 @@ body{
   float: left;
 }
 
+@media screen and (max-width: 37.25rem) {
+  .hotel_box {
+      margin: 0.75rem 0 0.75rem !important;
+      width: 89%;
+  }
+}
+
 .hotel_box i{
     color: #999999;
 }
