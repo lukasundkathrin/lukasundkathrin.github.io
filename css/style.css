@@ -38,7 +38,7 @@ a{
 
 #green_text{
     font-size: 0.85rem;
-    margin: 2rem auto 0rem;
+    margin: 2rem auto 5rem;
     padding: 0 5rem 0 5rem;
     max-width: 50rem;
 }
@@ -164,6 +164,11 @@ a{
         width: 90%;
     }
 
+}
+
+.mapouter iframe{
+    max-width: 450px;
+    height: 300px;
 }
 
 
