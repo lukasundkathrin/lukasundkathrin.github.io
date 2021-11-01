@@ -15,7 +15,7 @@ body{
 
 #green_text{
     font-size: 0.85rem;
-    color: green;
+    color: #428A59;
     margin: 2rem auto 0rem;
     padding: 0 5rem 0 5rem;
     max-width: 50rem;
@@ -50,9 +50,9 @@ body{
 
 .infobox .header{
     font-weight: 800;
-    color: green;
+    color: #428A59;
     /* text-transform: uppercase; */
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .infobox .box_text{
@@ -60,8 +60,52 @@ body{
     font-size: 0.85rem;
 }
 
-.infobox a{
+.infobox a, #green_text a{
     text-decoration: none;
-    color: green;
+    color: #50A4BC;
     font-weight: 600;
+}
+
+
+.hotel_box{
+  width: 14rem;
+  border-width: 0.01rem;
+  border-radius: 0.2rem;
+  border-color: black;
+  margin: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 0.8rem;
+  text-align: left;
+  float: left;
+}
+
+.hotel_box i{
+    color: #999999;
+}
+
+.hotel_box a{
+  text-decoration: none;
+  color: #428A59;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.explainer_text{
+    font-size: 0.85rem;
+    color: #428A59;
+    margin: 2rem auto 2rem;
+    padding: 0 5rem 0 5rem;
+    max-width: 50rem;
+}
+
+.back_link{
+    width: 100%;
+    text-align: center;
+    font-size: 0.85rem;
+}
+.back_link a{
+    text-decoration: none;
+    color: #50A4BC;
+    font-weight: bold;
 }

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 80 80"
+   style="enable-background:new 0 0 80 80;"
+   xml:space="preserve"
+   width="512px"
+   height="512px"
+   class=""
+   sodipodi:docname="location_seminar.svg"
+   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs13" /><sodipodi:namedview
+   id="namedview11"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="1.5175781"
+   inkscape:cx="256"
+   inkscape:cy="255.67053"
+   inkscape:window-width="1920"
+   inkscape:window-height="1043"
+   inkscape:window-x="1920"
+   inkscape:window-y="466"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Capa_1" /><g
+   id="g8"
+   style="fill:#50a4bc;fill-opacity:1"><g
+     id="g6"
+     style="fill:#50a4bc;fill-opacity:1">
+	<g
+   id="g4"
+   style="fill:#50a4bc;fill-opacity:1">
+		<path
+   d="M40,0C26.191,0,15,11.194,15,25c0,23.87,25,55,25,55s25-31.13,25-55C65,11.194,53.807,0,40,0z     M40,38.8c-7.457,0-13.5-6.044-13.5-13.5S32.543,11.8,40,11.8c7.455,0,13.5,6.044,13.5,13.5S47.455,38.8,40,38.8z"
+   data-original="#030104"
+   class="active-path"
+   data-old_color="#7F992C"
+   fill="#FF6700"
+   id="path2"
+   style="fill:#50a4bc;fill-opacity:1" />
+	</g>
+</g></g> </svg>

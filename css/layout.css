@@ -6,3 +6,24 @@
   margin-right: auto;
   text-align: center;
 }
+
+
+#housing_container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#talk_map{
+  height: 28rem;
+  margin-bottom: 2rem;
+  width: 28rem;
+  margin: 0 2rem 2rem 2rem;
+  /* max-width: 500px; */
+}
+
+#hotel_container{
+  width: 35rem;
+}

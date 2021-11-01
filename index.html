@@ -2,46 +2,72 @@
 layout: default
 title: Home
 ---
-<div id="banner">
-    Zum heiratn wird's!
-</div>
-<div id="date">
-    30. April 2022
-</div>
-
 <div id="flexibox">
     <div class="infobox" id="fotobox">
     </div>
 
     <div class="infobox">
-        <div class='header'>generelle Infos</div>
+        <div class='header'>Generelle Infos</div>
         <div class="box_text">
-
+            <div>
+                <span style="font-weight:bold">Wo?</span> Radlgruberhof in St. Marien
+            </div>
+            <div style="margin: 0.5rem 0 0.75rem 0">
+                <span style="font-weight:bold">Wann?</span> Treffpunkt zur freien Trauung um 14:30, Party gibts ab 20:00 <br>
+            </div>
+            <div style="font-size: 0.8rem; text-align: right">
+                <a href="{% link info.html %}"><i class="fas fa-angle-double-right"></i> mehr</a>
+            </div>
         </div>
     </div>
 
     <div class="infobox">
         <div class='header'>Übernachtungen..</div>
         <div class="box_text">
-            ..gibts nicht direkt vor Ort, aber gleich in der Nähe. <a href="#">Hier</a> findet ihr eine Liste.
+            ..gibts nicht direkt vor Ort, aber gleich in der Nähe, erreichbar mit dem Taxi. <br><br>
+            <a href="{% link housing.html %}">
+                Hier
+                <span style='font-size:0.7rem !important; margin: 0 0.1rem 0 0.05rem;'>
+                  <i class='fas fa-external-link-alt'></i>
+                </span>
+            </a>
+            gibts eine Liste.
         </div>
     </div>
 
     <div class="infobox">
         <div class='header'>Was darfs denn sein?</div>
         <div class='box_text'>
-            Um das Buffet besser planbar zu machen, beantworte uns doch bitte eine Frage <a href="https://forms.gle/xpgJbrZQnbjCYFRPA" target='blank'>hier</a> - danke!
+            Um das Buffet besser planbar zu machen, beantworte uns doch bitte eine
+            <a href="https://forms.gle/xpgJbrZQnbjCYFRPA" target='blank'>
+                Frage
+                <span style='font-size:0.7rem !important; margin: 0 0.1rem 0 0.05rem;'>
+                  <i class='fas fa-external-link-alt'></i>
+                </span>
+            </a> - danke!
         </div>
     </div>
 
     <div class="infobox">
         <div class='header'>Be the DJ!</div>
         <div class='box_text'>
-            Eine unvergessliche Dancefloor-Experience gibts nur mit deiner Hilfe bei der <a href="https://docs.google.com/spreadsheets/d/1w9gzDh5IkZbrvIw8T-g5SCl1pFbFuGx5-zXsFGYJxuk/edit?usp=sharing" target='blank'>Playlist</a>
+            Eine unvergessliche Dancefloor-Experience gibts nur mit deiner Hilfe bei der
+            <a href="https://docs.google.com/spreadsheets/d/1w9gzDh5IkZbrvIw8T-g5SCl1pFbFuGx5-zXsFGYJxuk/edit?usp=sharing" target='blank'>
+                Playlist
+                <span style='font-size:0.7rem !important; margin: 0 0.1rem 0 0.05rem;'>
+                  <i class='fas fa-external-link-alt'></i>
+                </span>
+            </a>
         </div>
     </div>
 </div>
 
 <div id="green_text">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc interdum convallis eros, a consequat sapien semper et. Pellentesque ut felis orci. Duis rhoncus rhoncus dignissim. Duis lorem tellus, ornare sit amet massa sit amet, egestas hendrerit nibh. Etiam viverra luctus mi, in semper lacus scelerisque porttitor.
+    <a href="{% link green_event.html %}">
+        Hier
+        <span style='font-size:0.7rem !important; margin: 0 0.1rem 0 0.05rem;'>
+          <i class='fas fa-external-link-alt'></i>
+        </span>
+    </a>
 </div>

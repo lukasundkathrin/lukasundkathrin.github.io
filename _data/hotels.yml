@@ -1,0 +1,82 @@
+- name: Radlgruberhof
+  x: 48.13474922400565
+  y: 14.301024336687371
+  website: nothing
+  type: venue
+
+- name: Gasthaus zur Sonne
+  x: 48.1214596255994
+  y: 14.322153791453612
+  address_1: Weichstetten-Ost 1
+  address_2: 4502 St. Marien
+  tel: +43 7227 8312
+  distance: 3.5 km
+  car_minutes: 4 min
+  website: www.gasthauszursonne.at
+  type: hotel
+
+- name: Gasthof Templ
+  x: 48.14646569262696
+  y: 14.278246229712675
+  address_1: St. Marien 15
+  address_2: 4502 St. Marien
+  tel: +43 7227 8188
+  distance: 3.6 km
+  car_minutes: 5 min
+  website: www.templ.at
+  type: hotel
+
+- name: Gasthof Gundendorfer
+  x: 48.130442532423004
+  y: 14.219388978005554
+  address_1: Kremstalstraße 62
+  address_2: 4501 Neuhofen an der Krems
+  tel: +43 7227 4496
+  distance: 8 km
+  car_minutes: 10 min
+  website: www.gasthof-gundendorfer.at
+  type: hotel
+
+- name: Hofwirt zum Wimmerwald
+  x: 48.13391746588639
+  y: 14.217824776864544
+  address_1: Wimmerstraße 32
+  address_2: 4501 Neuhofen an der Krems
+  tel: +43 7227 45 80
+  distance: 8 km
+  car_minutes: 12 min
+  website: wimmerwald.eatbu.com/
+  type: hotel
+
+- name: Gasthof Heuriger Weinbauer
+  x: 48.165041023026944
+  y: 14.39001237656368
+  address_1: Distelberg 2-4
+  address_2: 4492 Hofkirchen
+  tel: +43 7225 7236
+  distance: 12 km
+  car_minutes: 15 min
+  website: ghweinbauer.jimdo.com/
+  type: hotel
+
+- name: Gasthof - Hotel Stockinger
+  x: 48.19979497496901
+  y: 14.270104275039868
+  address_1: Ritzlhofstrasse 63-65
+  address_2: 4052 Ansfelden
+  tel: +43 7229 88321 0
+  distance: 12 km
+  car_minutes: 15 min
+  website: www.stocki.at
+  type: hotel
+
+- name: Kirchenwirt Natur.Gut.Gartner
+  x: 48.12150735215169
+  y: 14.320227762303855
+  address_1: Weichstetten-West 2
+  address_2: 4502 St. Marien
+  tel: +43 7227 8321
+  distance: 3.5 km
+  car_minutes: 3 min
+  website: www.gartner-kirchenwirt.at
+  type: hotel

@@ -4,10 +4,12 @@
   <body>
     {% if page.title == 'Home' %}
     <div class="content container wide">
+        {% include banner.html %}
         {{ content}}
       </div>
     {% else %}
       <div class="content wide container">
+        {% include banner.html %}
         {{ content}}
       </div>
     {% endif %}
