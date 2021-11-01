@@ -5,13 +5,15 @@ title: Info
 <div class="back_link">
   <a href="{% link index.html %}"><i class="fas fa-angle-double-left"></i> zurück</a>
 </div>
+
 <div class="explainer_text">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc interdum convallis eros, a consequat sapien semper et. Pellentesque ut felis orci. Duis rhoncus rhoncus dignissim. Duis lorem tellus, ornare sit amet massa sit amet, egestas hendrerit nibh. Etiam viverra luctus mi, in semper lacus scelerisque porttitor.
+    Wir freuen uns, wenn ihr die Hochzeit inklusive Party möglichst lange mit uns genießen könnt. Um sich den anschließenden Nachhauseweg zu ersparen und direkt ins Bett fallen zu können, gibt es im Umkreis diverse Übernachtungsmöglichkeiten in unterschiedlichen Preiskategorien – unten findet ihr eine Auswahl. Es wäre super, wenn ihr uns im Vorfeld kurz Bescheid geben könnt, ob ihr einen Transfer zum Hotel plant – dann können wir die umliegenden Taxiunternehmen vorwarnen. :)
 </div>
+
 <div id="housing_container">
   <div id="talk_map"></div>
   <div id="hotel_container">
-    <div class='hotel_box'>
+    <div class='hotel_box border_box'>
       <a href='https://www.radlgruberhof.at' target='blank' style="color:#50A4BC !important;">
         Radlgruberhof
         <span style='font-size:0.7rem !important; margin-left: 0.1rem'>
@@ -34,8 +36,9 @@ title: Info
   </div>
 </div>
 
-<script type="text/javascript">
 
+<!-- Map + markers. -->
+<script type="text/javascript">
   var mymap = L.map('talk_map').setView([48.16474922400565, 14.301024336687371], 2);
 
   L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -69,7 +72,6 @@ title: Info
     }
   };
 
-  // produce the markers on the map.
   hotels = [];
   {% for node in site.data.hotels %}
     var t = '{{node.type}}';
@@ -87,66 +89,32 @@ title: Info
           "distance" : "{{node.distance}}",
       });
     }
-
     marker.bindPopup(tooltip);
     marker.on('mouseover', function (e) { this.openPopup(); });
     marker.on('mouseout', function (e) { this.closePopup(); });
-
   {% endfor %}
-
 </script>
 
 
-
-
-
-
+<!-- List of hotels. -->
 <script type="text/javascript">
-
   function make_hotel_box(hotel, cont){
     var box = document.createElement('div');
-    box.setAttribute("class", "hotel_box");
+    box.setAttribute("class", "hotel_box border_box");
 
     var link = document.createElement('a');
     link.setAttribute("href", "http://"+hotel["website"]);
     link.setAttribute("target", "blank");
     link.innerHTML = hotel["name"] + " <span style='font-size:0.7rem !important; margin-left: 0.1rem'><i class='fas fa-external-link-alt'></i></span>";
-
     box.appendChild(link);
-
 
     var tab = document.createElement('table');
     tab.innerHTML = "<tr><td><i class='fas fa-map-marker'></i></td><td>"+hotel["address_1"]+"</td></tr>";
     tab.innerHTML += "<tr><td></td><td>"+hotel["address_2"]+"</td></tr>";
     tab.innerHTML += "<tr><td><i class='fas fa-phone-alt'></i></td><td>"+hotel["phone"]+"</td></tr>"
     tab.innerHTML += "<tr><td><i class='fas fa-car-side'></i></td><td>"+hotel["car_time"]+", <i class='fas fa-map-marked'></i> "+hotel["distance"]+"</td></tr>"
-
     box.appendChild(tab);
 
-    //
-    // var col = document.createElement('td');
-    // if (icon) {
-    //   var img = document.createElement('img');
-    //   img.setAttribute('src', icon);
-    //   col.appendChild(img);
-    // }
-    // col.setAttribute("style", "width:5%");
-    // row.appendChild(col);
-    //
-    // var col = document.createElement('td');
-    // col.innerHTML = '<a target="blank" class="sidebar-nav-item" href="'+file+'">'+title+'</a>';
-    // col.setAttribute("style", "width:40%");
-    // row.appendChild(col);
-    //
-    // var col = document.createElement('td');
-    // col.innerHTML = description;
-    // col.setAttribute("style", "width:40%");
-    // row.appendChild(col);
-    //
-    // var col = document.createElement('td');
-    // col.innerHTML = date;
-    // col.setAttribute("style", "width:15%");
-    // row.appendChild(col);
     cont.appendChild(box);
   };
 
@@ -156,5 +124,4 @@ title: Info
   for (k in hotels) {
     make_hotel_box(hotels[k], cont);
   }
-
 </script>

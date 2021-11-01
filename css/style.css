@@ -2,6 +2,29 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+/* All colors are toggled here. */
+.hotel_box i{
+    color: #999999;
+}
+#green_text, .hotel_box a, .info_box .header, .info_section .header, .green_event_text .header{
+    color: #499661
+}
+.explainer_text{
+    color: black;
+}
+
+.back_link a, .info_box a, #green_text a, .green_event_text a{
+    color: #7CB6A7;
+}
+
+
+
 #banner{
     font-family: 'Sacramento', cursive;
     font-size: 3rem;
@@ -15,7 +38,6 @@ body{
 
 #green_text{
     font-size: 0.85rem;
-    color: #428A59;
     margin: 2rem auto 0rem;
     padding: 0 5rem 0 5rem;
     max-width: 50rem;
@@ -34,50 +56,37 @@ body{
     border: none !important;
 }
 
-.infobox{
-    text-align: left;
-    width: 10rem;
-    height: 10rem;
-    /* border-style: solid; */
+.border_box{
     border-width: 0.01rem;
     border-radius: 0.2rem;
     border-color: black;
-    margin: 0.75rem;
     padding: 1rem;
     float: left;
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.infobox .header{
+.info_box{
+    text-align: left;
+    width: 10rem;
+    height: 10rem;
+    margin: 0.75rem;
+}
+
+.info_box .header{
     font-weight: 800;
-    color: #428A59;
-    /* text-transform: uppercase; */
     margin-bottom: 0.5rem;
 }
 
-.infobox .box_text{
+.info_box .box_text{
     text-align: left;
     font-size: 0.85rem;
 }
 
-.infobox a, #green_text a{
-    text-decoration: none;
-    color: #50A4BC;
-    font-weight: 600;
-}
-
-
 .hotel_box{
   width: 14rem;
-  border-width: 0.01rem;
-  border-radius: 0.2rem;
-  border-color: black;
-  margin: 0.75rem;
-  padding: 1rem;
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-size: 0.8rem;
   text-align: left;
-  float: left;
+  margin: 0.75rem;
 }
 
 @media screen and (max-width: 37.25rem) {
@@ -87,20 +96,14 @@ body{
   }
 }
 
-.hotel_box i{
-    color: #999999;
-}
-
 .hotel_box a{
   text-decoration: none;
-  color: #428A59;
   font-weight: 600;
   font-size: 0.9rem;
 }
 
 .explainer_text{
     font-size: 0.85rem;
-    color: #428A59;
     margin: 2rem auto 2rem;
     padding: 0 5rem 0 5rem;
     max-width: 50rem;
@@ -111,8 +114,68 @@ body{
     text-align: center;
     font-size: 0.85rem;
 }
+
 .back_link a{
     text-decoration: none;
-    color: #50A4BC;
     font-weight: bold;
+}
+
+
+.info_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0 0 0;
+    font-size: 0.85rem;
+    padding: 2rem 0 2rem 0;
+}
+
+.info_half{
+    float: left;
+    width: 42%;
+    margin: 1rem 2rem 0 2rem;
+    text-align: left;
+}
+
+.info_section .header{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+}
+
+.info_section{
+    margin: 1rem;
+    float: left;
+    width: 38%;
+    text-align: left;
+    padding: 2rem;
+    margin: 1rem 2.5% 1rem 2.5%;
+
+}
+
+@media screen and (max-width: 62.25rem) {
+    .info_section{
+        width: 100%;
+    }
+
+    .info_half{
+        width: 90%;
+    }
+
+}
+
+
+.green_event_text{
+    margin: 2rem auto 5rem;
+    font-size: 0.85rem;
+    text-align: justify;
+    max-width: 50rem;
+}
+
+.green_event_text .header{
+    font-weight: 600;
+    margin: 1rem 0 0.3rem 0;
+    font-size: 1rem;
 }
