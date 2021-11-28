@@ -12,9 +12,11 @@ a{
 .hotel_box i{
     color: #999999;
 }
-#green_text, .hotel_box a, .info_box .header, .info_section .header, .green_event_text .header{
-    color: #499661
+
+#green_text, .hotel_box a, .info_box .header, .info_section .header, .green_event_text .header, .info_half a, .info_half_right a{
+    color: #499661;
 }
+
 .explainer_text{
     color: black;
 }
@@ -22,6 +24,7 @@ a{
 .back_link a, .info_box a, #green_text a, .green_event_text a{
     color: #7CB6A7;
 }
+
 
 
 
@@ -138,6 +141,11 @@ a{
     margin: 1rem 2rem 0 2rem;
     text-align: left;
 }
+.info_half_right{
+    float: right;
+    width: 42%;
+    text-align: right;
+}
 
 .info_section .header{
     font-size: 1.3rem;
@@ -152,7 +160,11 @@ a{
     text-align: left;
     padding: 2rem;
     margin: 1rem 2.5% 1rem 2.5%;
+}
 
+.flex_info{
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 62.25rem) {
@@ -160,14 +172,19 @@ a{
         width: 100%;
     }
 
-    .info_half{
+    .info_half, .info_half_right{
         width: 90%;
     }
 
 }
 
 .mapouter iframe{
-    max-width: 450px;
+    max-width: 300px;
+    height: 300px;
+}
+
+#loc_map{
+    width: 100%;
     height: 300px;
 }
 
