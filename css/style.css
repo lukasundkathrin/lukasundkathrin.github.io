@@ -162,10 +162,6 @@ a{
     margin: 1rem 2.5% 1rem 2.5%;
 }
 
-.flex_info{
-    display: flex;
-    justify-content: space-between;
-}
 
 @media screen and (max-width: 62.25rem) {
     .info_section{
@@ -176,6 +172,11 @@ a{
         width: 90%;
     }
 
+    .info_half_right{
+        text-align: center;
+        float: left;
+        padding: 0 1rem 0 1rem;
+    }
 }
 
 .mapouter iframe{
