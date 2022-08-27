@@ -54,7 +54,7 @@ a{
 }
 
 #fotobox{
-    background-image: url("/img/kalu.png");
+    background-image: url("/img/kalu_hochzeit.png");
     background-size: cover;
     border: none !important;
 }
@@ -70,8 +70,8 @@ a{
 
 .info_box{
     text-align: left;
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 12rem;
     margin: 0.75rem;
 }
 
